@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Click Counter</title>
+</head>
+<body>
+    <a href="#" id="https://cofacecorpprod-my.sharepoint.com/:u:/g/personal/christian_olsen_coface_com/EWah0vVhKPdEjPz4yg7J8jwBOwtna2CCe9rp3qXdjuhr8Q?e=8uWgXe">Click me!</a>
+    <p>Click count: <span id="clickCount">0</span></p>
+
+    <script>
+        let count = 0;
+        document.getElementById('https://cofacecorpprod-my.sharepoint.com/:u:/g/personal/christian_olsen_coface_com/EWah0vVhKPdEjPz4yg7J8jwBOwtna2CCe9rp3qXdjuhr8Q?e=8uWgXe').addEventListener('click', function() {
+            count++;
+            document.getElementById('clickCount').innerText = count;
+        });
+    </script>
+</body>
+</html>
